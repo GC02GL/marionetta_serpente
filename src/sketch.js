@@ -30,6 +30,8 @@ img9 = loadImage("occhi/Bocca_Strana.png")
 
 }
 
+//function widowResized (){
+	//resizeCanvas (windowWidth, windowHeight)
 
 async function setup() {
   
@@ -45,7 +47,7 @@ async function setup() {
 }
 
 async function draw() {
-	
+	//scale (min(widowWidth/640, widowHeight/2))
 	//background(255, 255, 255)
 	
 	 
