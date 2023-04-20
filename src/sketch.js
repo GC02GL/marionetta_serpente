@@ -10,9 +10,6 @@ let img6
 let img7
 let img8
 let img9
-let acceso = false 
-const img4size = 100
-
 
 
 
@@ -30,8 +27,6 @@ img9 = loadImage("occhi/Bocca_Strana.png")
 
 }
 
-//function widowResized (){
-	//resizeCanvas (windowWidth, windowHeight)
 
 async function setup() {
   
@@ -47,19 +42,15 @@ async function setup() {
 }
 
 async function draw() {
-	//scale (min(widowWidth/640, widowHeight/2))
-	//background(255, 255, 255)
-	
-	 
 	
 	if (detector && capture.loadedmetadata) {
 		const hands = await detector.estimateHands(capture.elt, { flipHorizontal: true })
 		
 		if (hands.length == 1) {
 			const hand = hands[0]
-			const handedness = hand.handedness // Left : Right
+			const handedness = hand.handedness 
 			noStroke()
-			fill(255,255,0) 
+			
 			const p = hand.keypoints[20]
 			const k = hand.keypoints[11]
 			const l = hand.keypoints[9]
@@ -100,8 +91,7 @@ async function keyPressed(){
 }   
 
 async function createDetector() {
-	// Configurazione Media Pipe
-	// https://google.github.io/mediapipe/solutions/hands
+	
 	const mediaPipeConfig = {
 		runtime: "mediapipe",
 		modelType: "full",
