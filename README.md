@@ -30,9 +30,13 @@ All’apertura della pagina troviamo uno sfondo nero a tinta unita. Una volta ch
 Per creare una faccia ho assegnato ogni immagine, di occhi o bocca, ad un punto della mano in modo tale da rendere più vera e reale possibile la mia marionetta.
 
 
-[<img src="doc/fo<img width="400" alt="foto1" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/f6e2007a-5bce-4179-b32f-9adc8e05d8dc"><img width="400" alt="foto2" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/da339f26-1bef-481f-8f6b-288b5b547b37">
+<img width="400" alt="foto1" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/12c78d7f-eb6e-4a9f-a786-7c017d14d3f0">
 
-<img width="400" alt="foto3" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/1db2da52-2d70-48ae-a698-07bebfa14e25">
+<img width="400" alt="foto2" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/b6446d1e-3b8b-4da1-b131-437eb1e196f3">
+
+<img width="400" alt="foto3" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/69dba3ef-1ff2-416c-91d5-6059cdd4f01e">
+
+
 
 
 
