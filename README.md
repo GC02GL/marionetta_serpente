@@ -29,9 +29,9 @@ Per le espressioni mi sono ispirata a delle facce umane bizzarre e particolari.
 All’apertura della pagina troviamo uno sfondo nero a tinta unita. Una volta che la webcam riconosce lo scheletro della mano appare la prima faccia della marionetta. Tramite un click delle seguenti lettere della tastiera (x, c, v) la marionetta cambia faccia e espressioni e ad ogni movimento ha delle ripetizioni in loop delle immagini creando un effetto dinamico.
 Per creare una faccia ho assegnato ogni immagine, di occhi o bocca, ad un punto della mano in modo tale da rendere più vera e reale possibile la mia marionetta.
 
-[<img src="doc/foto1.png" width="500" alt="Magic trick">]
-[<img src="doc/foto2.png" width="500" alt="Magic trick">]
-[<img src="doc/foto3.png" width="500" alt="Magic trick">]
+[<img src="doc/foto1.png" width="500">]
+[<img src="doc/foto2.png" width="500">]
+[<img src="doc/foto3.png" width="500">]
 
 
 
@@ -45,7 +45,7 @@ Con la funzione KeyPressed assegno ad ogni lettera delle immagini diverse, in mo
 
 Inserisco le immagini
 
-
+```JavaScript
 async function preload (){
 img = loadImage("occhi/occhi-verdi.png")
 img2 = loadImage("occhi/occhi-verdiSX.png")
@@ -59,9 +59,10 @@ img9 = loadImage("occhi/Bocca_Strana.png")
 
 
 }
+```
 
 Attribuisco ad ogni punto specifico della mano dove voglio posizionare le immagini
-
+```JavaScript
 async function draw() {
 	
 	if (detector && capture.loadedmetadata) {
@@ -87,9 +88,9 @@ async function draw() {
 		}
 	}
 }
-
+```
 Assegno ad ogni lettera delle immagini diverse
-
+```JavaScript
 async function keyPressed(){
 	if(key == "c") {
 		
@@ -112,7 +113,7 @@ async function keyPressed(){
 
 	}
 }   
-
+```
 ## Target e contesto d’uso
 Il mio target è un vasto gruppo di persone che comprende sia bambini che adulti. Mi sono immaginata di vedere il mio elaborato in un museo interattivo. Gli spettatori potranno interagire unicamente con la marionetta realizzando una influenza reciproca.
 
