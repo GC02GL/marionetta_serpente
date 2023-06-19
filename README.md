@@ -29,9 +29,12 @@ Per le espressioni mi sono ispirata a delle facce umane bizzarre e particolari.
 All’apertura della pagina troviamo uno sfondo nero a tinta unita. Una volta che la webcam riconosce lo scheletro della mano appare la prima faccia della marionetta. Tramite un click delle seguenti lettere della tastiera (x, c, v) la marionetta cambia faccia e espressioni e ad ogni movimento ha delle ripetizioni in loop delle immagini creando un effetto dinamico.
 Per creare una faccia ho assegnato ogni immagine, di occhi o bocca, ad un punto della mano in modo tale da rendere più vera e reale possibile la mia marionetta.
 
-[<img src="doc/foto1.png" width="500">]
-[<img src="doc/foto2.png" width="500">]
-[<img src="doc/foto3.png" width="500">]
+
+[<img src="doc/fo<img width="400" alt="foto1" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/f6e2007a-5bce-4179-b32f-9adc8e05d8dc"><img width="400" alt="foto2" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/da339f26-1bef-481f-8f6b-288b5b547b37">
+
+<img width="400" alt="foto3" src="https://github.com/GC02GL/marionetta_serpente/assets/126774228/1db2da52-2d70-48ae-a698-07bebfa14e25">
+
+
 
 
 
