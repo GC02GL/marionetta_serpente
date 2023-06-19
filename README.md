@@ -5,7 +5,7 @@ Docenti: A. Gysin, G. Profeta
 Elaborato 1: Marionetta digitale  
 
 # Marionetta Serpente
-Autore: Gloria CorradiN
+Autore: Gloria Corradin
 
 https://ixd-supsi.github.io/2023/progetti/1_marionetta_digitale/
 
